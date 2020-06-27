@@ -104,7 +104,7 @@ export default class CreateTodo extends Component {
                 checked={this.state.todo_priority === "High"}
                 onChange={this.handleChange}
               />
-              <label className="form-check-label">Low</label>
+              <label className="form-check-label">High</label>
             </div>
           </div>
           <div className="form-group">
